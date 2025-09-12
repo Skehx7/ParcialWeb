@@ -1,0 +1,34 @@
+#main{
+    background-color: rgb(214, 224, 228);
+}
+#main-container{
+    width: auto;
+    height: auto;
+    background-color: rgb(127, 127, 198);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+
+#image-container{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    background-color: lightblue;
+    border-radius: 15px;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#image-box{
+    width: 95%;
+    height: 280px;
+    background-color: white;
+    border-radius: 15px;
+}
