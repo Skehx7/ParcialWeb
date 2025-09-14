@@ -1,24 +1,27 @@
 #main{
-    background-color: rgb(214, 224, 228);
+    background-color: #2e1a47;
 }
 #main-container{
     width: auto;
     height: auto;
-    background-color: rgb(127, 127, 198);
+    background-color: #4a2a6a;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+    
 }
-
+.text{
+    color: white;
+}
 
 
 #image-container{
     width: 100%;
     height: 1000px;
     margin-top: 20px;
-    background-color: lightblue;
+    background-color: #794b8b;
     border-radius: 15px;    
     display: flex;
     flex-wrap: wrap;
@@ -29,7 +32,7 @@
 #image-box{
     width: 95%;
     height: 700px;
-    background-color: white;
+    background-color: #e2c7e6;
     border-radius: 15px;    
     margin-bottom: 20px;
     display: flex;
