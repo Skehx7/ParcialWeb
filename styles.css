@@ -16,7 +16,7 @@
 
 #image-container{
     width: 100%;
-    height: 400px;
+    height: 1000px;
     margin-top: 20px;
     background-color: lightblue;
     border-radius: 15px;    
@@ -28,7 +28,32 @@
 
 #image-box{
     width: 95%;
-    height: 280px;
+    height: 700px;
     background-color: white;
+    border-radius: 15px;    
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;   
+    align-items: center; 
+    
+
+}
+
+
+#options{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#image-nasa{
+    width: 500px;
+    height: 300px;
     border-radius: 15px;
+    
+}
+
+.button{
+   border-radius: 15px;
+   width: 200px;
 }

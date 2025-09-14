@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Document</title>
 </head>
 <body id="main">
@@ -14,16 +15,10 @@
         <h2>Usando APOD API</h2>
 
         <div id="options">
+            
+                <label >Oprime para generar: <button type="button" class="button" id="image-button" onclick="peticionApiRandom()">Generar aleatorio</button></label>          
 
-            <div id="option-1">
-                <label for="button">Oprime para generar:</label>
-                <button type="button" id="image-button">Genera aleatorio</button>
-            </div>
-
-            <div id="option-2">
-                <label for="image-date">Selecciona una fecha:</label>
-                <input type="DATE" id="image-date"> 
-            </div>
+                <label>Selecciona una fecha: <button type="button" class="button" id="image-date" onclick="obtenerValorDate()">Generar la imagen del dia</button></label>
             
         </div>
         
@@ -32,9 +27,15 @@
     </div>
 
     <div id="image-container">
-        <h3>Imagen Generada</h3>
 
-        <div id="image-box"></div>
+        <div>
+            <h3 >Imagen Generada</h3>
+        </div>        
+
+        <div id="image-box">
+
+
+        </div>
     </div>
 
     
