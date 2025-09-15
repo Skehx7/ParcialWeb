@@ -1,14 +1,3 @@
-const obtenerValorBtn = () => {
-    let inputBtn = document.getElementById("image-button");   
-    let valorBtn =inputBtn.value;
-    peticionApiRandom(valorBtn);
-}
-
-const obtenerValorDate= () => {    
-    let inputDate = document.getElementById("image-date");
-    let valorDate =inputDate.value;
-    peticionApi(valorDate);
-}
 
 const peticionApi = () => {
     const baseUrl = "https://api.nasa.gov/";
@@ -35,8 +24,7 @@ const peticionApiRandom = () => {
 
 const printData = (data) => {
 
-    let respuesta = document.getElementById("image-box");
-  
+    let respuesta = document.getElementById("image-box");  
     respuesta.innerHTML = `
         <h2>${data.title}  ${data.date}</h2>
         <h4>${data.copyright}</h4>
